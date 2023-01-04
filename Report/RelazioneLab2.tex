@@ -1,0 +1,30 @@
+\documentclass[titlepage]{report}
+\usepackage[italian]{babel}
+\usepackage[babel]{csquotes}
+\usepackage[a4paper,left=2cm,bottom=2cm,right=2cm,top=2.5cm]{geometry}
+\usepackage[style=numeric-comp,useprefix,hyperref,backend=bibtex,natbib,sorting=none]{biblatex}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{graphicx} 			% pacchetto per inserire immagini
+\usepackage{sidecap}			% pacchetto delle didascalie laterali
+\usepackage{setspace}			% pacchetto per modificare interlinea
+\usepackage{textcomp} 			% pacchetto per simboli unicode
+\usepackage[table]{xcolor}		% pacchetto colori per le celle delle tabelle
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[nowrite,infront,standard,swapnames]{frontespizio}
+
+\begin{document}
+
+    \hypersetup{
+        linkbordercolor={1 1 1},
+    }
+
+
+    \tableofcontents
+
+    \chapter*{ES2M}
+    \addcontentsline{toc}{chapter}{ES2M}
+    
+\end{document}

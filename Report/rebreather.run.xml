@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>RelazioneLab2.aux</file>
-      <file>RelazioneLab2-blx.bib</file>
+      <file>rebreather.aux</file>
+      <file>rebreather-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>RelazioneLab2.bbl</file>
+      <file>rebreather.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -69,20 +69,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>RelazioneLab2</infile>
+      <infile>rebreather</infile>
     </cmdline>
     <input>
-      <file>RelazioneLab2.aux</file>
+      <file>rebreather.aux</file>
     </input>
     <output>
-      <file>RelazioneLab2.bbl</file>
+      <file>rebreather.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>RelazioneLab2.bbl</file>
+      <file>rebreather.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>RelazioneLab2.aux</file>
-      <file>RelazioneLab2-blx.bib</file>
+      <file>rebreather.aux</file>
+      <file>rebreather-blx.bib</file>
     </requires>
     <requires type="editable">
     </requires>

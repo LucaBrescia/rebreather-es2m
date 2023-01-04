@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.3)  4 JAN 2023 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.3)  4 JAN 2023 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Progetti/rebreather-es2m/Report/RelazioneLab2.tex
-(c:/Progetti/rebreather-es2m/Report/RelazioneLab2.tex
+**c:/Progetti/rebreather-es2m/Report/rebreather.tex
+(c:/Progetti/rebreather-es2m/Report/rebreather.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-11-02> (C:\Users\bresc\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
@@ -575,8 +575,8 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (RelazioneLab2.aux)
-\openout1 = `RelazioneLab2.aux'.
+ (rebreather.aux)
+\openout1 = `rebreather.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -652,11 +652,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `RelazioneLab2-blx.bib'.
+\openout3 = `rebreather-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'RelazioneLab2.bbl' found.
- (RelazioneLab2.bbl)
+Package biblatex Info: ... file 'rebreather.bbl' found.
+ (rebreather.bbl)
 Package biblatex Info: Reference section=0 on input line 18.
 Package biblatex Info: Reference segment=0 on input line 18.
 Package caption Info: Begin \AtBeginDocument code.
@@ -700,38 +700,54 @@ Package: ragged2e 2022/11/13 v3.2 ragged2e Package
 \JustifyingParindent=\skip98
 )
 Package hyperref Info: Link coloring OFF on input line 18.
- (RelazioneLab2.out) (RelazioneLab2.out)
+ (rebreather.out) (rebreather.out)
 \@outlinefile=\write4
-\openout4 = `RelazioneLab2.out'.
+\openout4 = `rebreather.out'.
 
- (RelazioneLab2.toc)
+
+
+Package frontespizio Warning: Missing file rebreather-frn.pdf.
+
+[1
+
+] (rebreather.toc)
 \tf@toc=\write5
-\openout5 = `RelazioneLab2.toc'.
-
- [1
+\openout5 = `rebreather.toc'.
 
 
-{C:/Users/bresc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40     \chapter
+                 *{ES2M} [1
 
-] (RelazioneLab2.aux)
-Package rerunfilecheck Info: File `RelazioneLab2.out' has not changed.
+{C:/Users/bresc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package frontespizio Warning: Remember to compile rebreather-frn with
+(frontespizio)                pdflatex rebreather-frn
+(frontespizio)                and then rerun pdflatex.
+
+[2
+
+] (rebreather.aux)
+Package rerunfilecheck Info: File `rebreather.out' has not changed.
 (rerunfilecheck)             Checksum: 410CA95384C8F588D598EA775AE2600B;64.
-Package logreq Info: Writing requests to 'RelazioneLab2.run.xml'.
-\openout1 = `RelazioneLab2.run.xml'.
+Package logreq Info: Writing requests to 'rebreather.run.xml'.
+\openout1 = `rebreather.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20440 strings out of 475281
- 366595 string characters out of 2774065
- 900943 words of memory out of 3000000
- 41679 multiletter control sequences out of 15000+600000
+ 20443 strings out of 475281
+ 366573 string characters out of 2774065
+ 900928 words of memory out of 3000000
+ 41681 multiletter control sequences out of 15000+600000
  470173 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,5n,77p,1917b,1340s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,5n,77p,1914b,1340s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/bresc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bresc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bresc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on RelazioneLab2.pdf (2 pages, 32183 bytes).
+Output written on rebreather.pdf (3 pages, 32544 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
